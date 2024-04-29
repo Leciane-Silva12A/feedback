@@ -89,7 +89,8 @@ body{
     background-color: var(--light-grey);
 }
 
-.card > button{
+.card > a{
+    display: block;
     width: 100%;
     padding: 13px;
     background-color: var(--orange);
@@ -101,6 +102,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--white);
+    text-align: center;
+    text-decoration: none;
 
     transition: all ease-in-out 0.3s;
 }
@@ -108,4 +111,5 @@ body{
 .card >button:hover{
     color: var(--orange);
     background-color: var(--white);
+    cursor: pointer;
 }
